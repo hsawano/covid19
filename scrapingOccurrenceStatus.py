@@ -98,14 +98,14 @@ death_img = cv2.dilate(death_img,kernel,iterations = 1)
 death_txt = textFrom(death_img)
 
 
-print (inspectors_txt)
-print (positive_txt)
-print (hospitalized_txt)
-print (mild_moderate_txt)
-print (severe_txt)
-print (discharge_txt)
-print (transfer_txt)
-print (death_txt)
+#print (inspectors_txt)
+#print (positive_txt)
+#print (hospitalized_txt)
+#print (mild_moderate_txt)
+#print (severe_txt)
+#print (discharge_txt)
+#print (transfer_txt)
+#print (death_txt)
 
 stock = [inspectors_txt, positive_txt, hospitalized_txt, mild_moderate_txt, severe_txt, discharge_txt, transfer_txt, death_txt]
 
